@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nonna Pasta</title>
+  <link rel="preload" as="image" href="img1.webp">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      background: #000;
+      width: 100%;
+      overflow-x: hidden;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+      line-height: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <img src="img1.webp" width="845" height="1366" alt="" loading="eager">
+    <img src="img2.webp" width="1133" height="1002" alt="" loading="lazy">
+    <img src="img3.webp" width="871" height="1329" alt="" loading="lazy">
+    <img src="img4.webp" width="1200" height="849" alt="" loading="lazy">
+    <img src="img5.webp" width="934" height="1232" alt="" loading="lazy">
+  </div>
+</body>
+</html>
